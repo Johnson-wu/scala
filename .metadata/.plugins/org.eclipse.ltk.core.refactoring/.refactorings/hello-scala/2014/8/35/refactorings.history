@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hello-scala/src/main/scala/hello2.scala&apos; to &apos;FileMatcher.scala&apos;" description="Rename resource &apos;hello2.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/scala/hello2.scala" name="FileMatcher.scala" stamp="1409103753347" updateReferences="true"/>
+</session>

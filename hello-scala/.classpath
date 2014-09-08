@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/scala"/>
+	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/java"/>
+	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/java"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.1.jar" sourcepath="E:/study/scala/scala-SDK-3.0.4-2.11-2.11-win32.win32.x86_64/eclipse/configuration/org.eclipse.osgi/bundles/286/1/.cp/target/src/scala-library-src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
