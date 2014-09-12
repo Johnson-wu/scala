@@ -1,0 +1,14 @@
+object Test {
+	def main(args:Array[String]):Unit = {
+	  
+	  //Annoymous Subclass
+	  val annoyClass = new Person("Hello") {
+	    override def toString:String = "My name is hello !"
+	  }
+	}
+}
+
+class Person(val name:String) {
+  private var age = 0
+  
+}

@@ -87,7 +87,7 @@ object HelloClass {
     //    val elem2:Element = new ArrayElement2(Array("1","2","3"))
     //    println(elem2.contents,elem2.height,elem2.width)
 
-    def curriedSum(x: Int, z: Int)(y: Int) = x + z + y
+   /* def curriedSum(x: Int, z: Int)(y: Int) = x + z + y
     //    val fun = (x:Int,z:Int)(y:Int) => curriedSum(_:Int,_:Int)(_:Int)
     //    val tmp1 = fun(1,2)
     val tmp = curriedSum(1, 2)_
@@ -100,7 +100,8 @@ object HelloClass {
     val arrAbove = elem(Array("1", "2")) above elem(Array("a", "b"))
     val arrBeside = elem(Array("1", "2")) beside elem(Array("a", "b"))
     println(arrAbove)
-    println(arrBeside)
+    println(arrBeside)*/
+    BigInt.apply("123456789")
 
   }
 
