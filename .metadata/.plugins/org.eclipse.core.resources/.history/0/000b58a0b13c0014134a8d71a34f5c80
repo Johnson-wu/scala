@@ -1,0 +1,7 @@
+object FileOperCP_9 extends App {
+	import scala.io.Source
+	val file = Source.fromFile("FileMatcher.scala")
+	val lines = file.getLines
+	println(lines.length)
+	
+}

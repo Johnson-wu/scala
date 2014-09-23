@@ -1,0 +1,26 @@
+object FileOperCP_9 extends App {
+	import scala.io.Source
+	val file = Source.fromFile("E:\\GitHub\\scala\\hello-scala\\src\\main\\scala\\FileMatcher.scala")
+	val lines = file.getLines	// lines 只可使用一次，用完内容就清空或者是io通道关闭了
+	
+//	println(lines.length)
+	
+//	for(line <- lines)
+//	  println(line.mkString)
+	
+//	val arr = lines.toArray
+//	println(arr.length)
+	
+//	println(lines.mkString("<<<","\n",">>>"))
+	
+	val iter = lines.buffered
+	while(iter.hasNext) {
+		if(iter.head == "c") {
+			println(iter.next)
+		}else{
+//			println("head char not 'c'")
+		}
+	}
+	  
+	  
+}

@@ -1,0 +1,7 @@
+trait Logger {
+  def log(msg:String)
+}
+
+class Chapter10 {
+
+}

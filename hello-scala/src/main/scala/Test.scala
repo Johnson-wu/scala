@@ -25,6 +25,10 @@ object Test {
 	  println(item1.equals(item3))
 	  println(item1==item2,item1==item3)
 	  item1.printHash
+	  
+	  Item.test
+	  
+	  item1.printHash
 	}
 }
 
@@ -56,15 +60,32 @@ class Item(var description:String, val price:Double) {
   
   def printHash:Unit = {
 	  println(this.description.hashCode())
+	  Item.test
   }
   
 }
 
+class Test(val id:Int) {
+	val name:String = "object extends with"
+	  
+    def printTest(arg:String):Unit = {
+	  println("Test : " + arg)
+	}
+}
+
+trait Test1{
+  
+}
+
 //Class Item's companion object
-object Item {
+object Item extends Test(1) with Test1 {
   
   def apply(description:String,price:Double) = {
     new Item(description,price)
   }
   
+  def test:Unit = {
+    println(name) 
+    printTest("object call extends Class's method")
+  }
 }

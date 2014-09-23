@@ -1,0 +1,13 @@
+trait Logger {
+  def log(msg:String)
+}
+
+trait TimeStampLogger extends Logger {
+  override def log(msg:String) {
+	  super.log(new java.util.Date() + " " + msg)
+  }
+}
+
+class Chapter10 {
+
+}

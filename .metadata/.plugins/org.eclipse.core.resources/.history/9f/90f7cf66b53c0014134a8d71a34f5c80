@@ -1,0 +1,26 @@
+object FileOperCP_9 extends App {
+	import scala.io.Source
+	val file = Source.fromFile("E:\\GitHub\\scala\\hello-scala\\src\\main\\scala\\FileMatcher.scala")
+	val lines = file.getLines	// lines 只可使用一次，用完内容就清空或者是io通道关闭了
+	
+//	println(lines.length)
+	
+//	for(line <- lines)
+//	  println(line.mkString)
+	
+//	val arr = lines.toArray
+//	println(arr.length)
+	
+//	println(lines.mkString("<<<","\n",">>>"))
+	
+//	val iter = lines.buffered
+//	while(iter.hasNext) {
+//		println(iter.head)	// head只取值，游标不下移
+//		println(iter.next)	// next取值，并游标下移
+//	}
+	 
+	val list = Array("1","2","3")
+	val newList = for(a <- list) yield {a.toDouble}
+	println(newList.toString)
+	  
+}
