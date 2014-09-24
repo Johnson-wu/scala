@@ -1,0 +1,11 @@
+object Chapter13 extends App {
+  
+	def sum(ls:List[Int]):Int = {
+	  if(ls==Nil) 0
+	  else ls.head + sum(ls.tail)
+	}
+	
+	val ls = 5::4::3::2::1::Nil
+	
+	println(sum(ls))
+}

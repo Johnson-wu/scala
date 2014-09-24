@@ -1,0 +1,26 @@
+object Chapter13 extends App {
+  
+	def sum1(ls:List[Int]):Int = {
+	  if(ls==Nil) 0
+	  else ls.head + sum1(ls.tail)
+	}
+	
+	val ls = 5::4::3::2::1::Nil
+	
+//	println(sum1(ls),ls.sum)
+	
+	def sum2(ls:List[Int]):Int = ls match {
+	  case Nil => 0
+	  case h::t => h + sum2(t)
+	}
+//	println(sum2(ls),ls.sum)
+
+	val lst = List(1,2,3,4,5).foldLeft("")(_ + _)
+	println(lst.toString())
+	
+	
+	val str = "asdfgfhjghlwrettyuiyuio"
+	val strm = str.toStream
+	println(strm)
+	println(strm(5))
+}

@@ -1,0 +1,6 @@
+object Chapter13 extends App {
+	def sum(ls:List[Int]):Int = {
+	  if(ls==Nil) 0
+	  else ls.head + sum(ls.tail)
+	}
+}

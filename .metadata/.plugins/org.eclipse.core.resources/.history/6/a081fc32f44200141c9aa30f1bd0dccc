@@ -1,0 +1,5 @@
+object Chapter13 extends App {
+	def sum(ls:List[Int]):Int = {
+	  
+	}
+}

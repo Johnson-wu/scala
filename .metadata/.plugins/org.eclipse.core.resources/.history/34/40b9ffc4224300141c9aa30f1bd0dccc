@@ -1,0 +1,4 @@
+object Chapter14 extends App {
+	for((k,v) <- System.getProperties())
+	  println(k + "===>" + v)
+}
